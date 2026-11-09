@@ -59,4 +59,4 @@ Frontend berjalan di `http://localhost:5173`.
 
 Password di-hash dengan `password_hash`. Status selesai disimpan di tabel `task_completions`. Pencarian, filter, dan pagination ada di API. Di layar, peran hanya mengatur tombol yang tampil. Proteksi peran di backend belum memakai middleware. Tombol halaman, unit test, Docker, dokumentasi Postman, dan notifikasi tenggat belum dibuat.
 
-Alat AI saya pakai sebatas merapikan styling CSS dan sedikit penyesuaian tampilan. Cakupannya tidak banyak. Autentikasi, CRUD tugas, migrasi database, dan halaman React saya kerjakan sendiri.
+Bantuan alat AI ada pada styling CSS dan sedikit perapian README. Untuk autentikasi, tugas, migrasi, dan halaman React, saya yang menyusun alurnya selama tes. Ada bagian yang saya sesuaikan setelah melihat referensi, dan bagian itu tetap bisa saya jelaskan.
