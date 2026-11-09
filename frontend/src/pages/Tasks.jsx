@@ -101,7 +101,7 @@ export default function Tasks() {
                     <button onClick={() => navigate(`/tasks/edit/${task.id}`)} style={{ marginRight: 8 }}>
                       Edit
                     </button>
-                    <button onClick={() => handleDelete(task.id)} style={{ color: 'red' }}>
+                    <button onClick={() => handleDelete(task.id)} className="danger">
                       Hapus
                     </button>
                   </>
