@@ -109,3 +109,34 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Tambahan style untuk aplikasi tugas */
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #aa3bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #root {
+    width: 100%;
+    border: none;
+  }
+}
